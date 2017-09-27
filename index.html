@@ -5,8 +5,172 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <a class="page-header___logo">
+        <img class="page-header___logo-img"  src="http://placehold.it/75x22" width="75" height="22" alt="Логотип PINK">
+      </a>
+      <nav class="main-navigation">
+        <button class="main-navigation__button">Открыть меню</button>
+        <div class="menu-wrapper">
+          <ul class="main-navigation__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>ГЛАВНАЯ</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">ФОТОГРАФИИ</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">КОНКУРС</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <main class="page-main">
+      <h1 class="visualy-hidden">Приложение PINK - ваше настроение всегда с вами</h1>
+
+      <section class="download">
+        <div class="download__background">
+          <img src="http://placehold.it/111x197" width="111" height="197" alt="iPhone">
+        </div>
+        <div class="download-application">
+          <a class="download-application__button" href="https://www.apple.com/ru/itunes/">Скачать приложение</a>
+          <a class="download-application__apple" href="https://www.apple.com/ru/itunes/">
+            <img src="http://placehold.it/47x56" width="47" height="56" alt="apple">
+          </a>
+          <a class="download-application__android" href="https://play.google.com/store?hl=ru">
+            <img src="http://placehold.it/43x47" width="43" height="47" alt="android">
+          </a>
+          <a class="download-application__windows" href="https://www.microsoft.com/ru-ru/store/apps/windows">
+            <img src="http://placehold.it/44x41" width="44" height="41" alt="windows">
+          </a>
+          <p class="download-application__text">Доступно для iPhone, iPad, Android, Windows</p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features_slogans">
+          <p class="features_slogan">Устали от серости мегаполиса?</p>
+          <p class="features_slogan">Нам есть, что вам предложить!</p>
+        </div>
+        <ul class="features-list">
+          <li class="features-list__item">
+            <h3 class="features-list__title">Поднимает настроение</h3>
+            <p class="features-list__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="features-list__item">
+            <h3 class="features-list__title">Меняет мир вокруг</h3>
+            <p class="features-list__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="features-list__item">
+            <h3 class="features-list__title">Заводит новых друзей </h3>
+            <p class="features-list__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+        <img class="features__img" src="http://placehold.it/157x320" width="157" height="320" alt="Картинка айфона">
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__slider">
+          <div class="controls">
+            <input class="controls__toggle" type="radio" name="reviews-control" id="reviews-control-1" checked>
+            <input class="controls__toggle" type="radio" name="reviews-control" id="reviews-control-2">
+            <input class="controls__toggle" type="radio" name="reviews-control" id="reviews-control-3">
+            <div class="controls__labels">
+              <label for="reviews-control-1" class="controls__label" tabindex="0"><span class="visually-hidden">Первый слайд</span></label>
+              <label for="reviews-control-2" class="controls__label" tabindex="0"><span class="visually-hidden">Второй слайд</span></label>
+              <label for="reviews-control-3" class="controls__label" tabindex="0"><span class="visually-hidden">Третий слайд</span></label>
+            </div>
+          </div>
+          <ul class="reviews__list">
+            <li class="reviews__item reviews__item--active">
+              <h3 class="reviews__name">Николай Петров</h3>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </li>
+            <li class="reviews__item">
+              <h3 class="reviews__name"></h3>
+              <p class="reviews__text"></p>
+            </li>
+            <li class="reviews__item">
+              <h3 class="reviews__name"></h3>
+              <p class="reviews__text"></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="price">
+        <div class="controls">
+          <input class="controls__toggle" type="radio" name="price-control" id="price-control-1" checked>
+          <input class="controls__toggle" type="radio" name="price-control" id="price-control-2">
+          <input class="controls__toggle" type="radio" name="price-control" id="price-control-3">
+          <div class="controls__labels">
+            <label for="price-control-1" class="controls__label" tabindex="0"><span class="visually-hidden">Первый слайд</span></label>
+            <label for="price-control-2" class="controls__label" tabindex="0"><span class="visually-hidden">Второй слайд</span></label>
+            <label for="price-control-3" class="controls__label" tabindex="0"><span class="visually-hidden">Третий слайд</span></label>
+          </div>
+        </div>
+        <table class="price__slider">
+          <tr class="price__string">
+            <td class="price__name">
+              <h3 class="price__title">Мини-тариф</h3>
+              <p class="price__value">1,99 USD</p>
+            </td>
+            <td class="price__name price__name--active">
+              <h3 class="price__title">Стандарт</h3>
+              <p class="price__value">3,99 USD</p>
+            </td>
+            <td class="price__name">
+              <h3 class="price__title">Макси-тариф</h3>
+              <p class="price__value">4,99 USD</p>
+            </td>
+          </tr>
+          <tr class="price__string">
+            <td class="price__option">Розовый фильтр<span>Да</span></td>
+            <td class="price__option">Розовый фильтр<span>Да</span></td>
+            <td class="price__option">Розовый фильтр<span>Да</span></td>
+          </tr>
+          <tr class="price__string">
+            <td class="price__option">Смайлики<span>Нет</span></td>
+            <td class="price__option">Смайлики<span>Да</span></td>
+            <td class="price__option">Смайлики<span>Да</span></td>
+          </tr>
+          <tr class="price__string">
+            <td class="price__option">Комментарии<span>Нет</span></td>
+            <td class="price__option">Комментарии<span>Нет</span></td>
+            <td class="price__option">Комментарии<span>Да</span></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <section class="contacts">
+        <div class="contacts__text-wrapper">
+          <p class="contacts__text">Остались вопросы?</p>
+          <p class="contacts__text">Свяжитесь с нами!</p>
+        </div>
+        <ul class="contacts__list">
+          <li class="contacts__items">
+            <h3 class="contacts__title">Звоните:</h3>
+            <a class="contacts__phone" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
+          </li>
+          <li class="contacts__items">
+            <h3 class="contacts__title">Пишите:</h3>
+            <a class="contacts__email">mail@htmlacademy.ru</a>
+          </li>
+          <li class="contacts__items">
+            <h3 class="contacts__title">Приезжайте в гости:</h3>
+            <span class="contacts__address">ул. Большая Конюшенная, 19/8</span>
+          </li>
+        </ul>
+        <img class="contacts__map" src="http://placehold.it/44x41" alt="Схема проезда">
+      </section>
+    </footer>
 
   </body>
 </html>
