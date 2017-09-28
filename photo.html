@@ -40,49 +40,49 @@
             <span class="gallery__name">Анна</span>
             <span class="gallary__time">(5 минут назад)</span>
             <p class="gallary__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <span class="gallary__like">Нравится: 215</span>
+            <button class="gallary__like" type="button">Нравится: 215</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="фоттогрфия машины">
             <span class="gallery__name">Левон</span>
             <span class="gallary__time">(5 часов назад)</span>
             <p class="gallary__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            <span class="gallary__like">Нравится: 356</span>
+            <button class="gallary__like" type="button">Нравится: 356</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="фотографии барабанов">
             <span class="gallery__name">Антон</span>
             <span class="gallary__time">(12 часов назад)</span>
             <p class="gallary__text">Соседи будут рады!</p>
-            <span class="gallary__like">Нравится: 666</span>
+            <button class="gallary__like" type="button">Нравится: 666</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="фотография крышы">
             <span class="gallery__name">Борис</span>
             <span class="gallary__time">(20 часов назад)</span>
             <p class="gallary__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
-            <span class="gallary__like">Нравится: 215</span>
+            <button class="gallary__like" type="button">Нравится: 215</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Кубанская бахча">
             <span class="gallery__name">Сергей</span>
             <span class="gallary__time">(25 часов назад)</span>
             <p class="gallary__text">Самая кубанская в мире!</p>
-            <span class="gallary__like">Нравится: 4</span>
+            <button class="gallary__like" type="button">Нравится: 4</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="Склон горы">
             <span class="gallery__name">Максим</span>
             <span class="gallary__time">(40 часов назад)</span>
             <p class="gallary__text">Где снег-то?</p>
-            <span class="gallary__like">Нравится: 150</span>
+            <button class="gallary__like" type="button">Нравится: 150</button>
           </li>
           <li class="gallery__item">
             <img src="http://placehold.it/280x180" width="280" height="180" alt="крыло самолета">
             <span class="gallery__name">Надежда</span>
             <span class="gallary__time">(45 часов назад)</span>
             <p class="gallary__text">Всем GM и взаимные лайки!</p>
-            <span class="gallary__like">Нравится: 2560</span>
+            <button class="gallary__like" type="button">Нравится: 2560</button>
           </li>
         </ul>
       </section>
@@ -90,13 +90,33 @@
       <section class="upload">
         <p class="upload__slogan">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
         <img src="http://placehold.it/280x180" width="374" height="374" alt="Дорога лес">
-        <div class="upload__tools">
-
+        <div class="upload__tool tools">
+          <div class="tools__wrapper">
+            <button class="tools__corp" type="button"><span class="visually-hidden">Кадрировать</span></button>
+            <button class="tools__fill" type="button"><span class="visually-hidden">Заливка</span></button>
+            <button class="tools__contrast" type="button"><span class="visually-hidden">Контрастность</span></button>
+          </div>
+          <div class="tools__scale"><span class="visually-hidden">Ползунок</span></div>
         </div>
-
+        <button class="upload__execute btn" type="submit">Запостить</button>
+        <button class="upload__cancel btn" type="reset">Отмена</button>
       </section>
     </main>
 
+    <footer class="page-footer">
+      <a class="page-footer__logo" href="index.html">
+        <img class="page-footer__logo-image" src="http://placehold.it/147x40" width="147" height="40" alt="PINK">
+      </a>
+      <section class="page-footer__social social">
+        <a class="social__btn social__btn--twitter" href="#"><span class="visually-hidden">twitter</span></a>
+        <a class="social__btn social__btn--facebook" href="#"><span class="visually-hidden">facebook</span></a>
+        <a class="social__btn social__btn--youtube" href="#"><span class="visually-hidden">youtube</span></a>
+      </section>
+      <a class="page-footer__copyright copyright" href="https://htmlacademy.ru/intensive/adaptive">
+        <span class="copyright__text">Разработано</span>
+        <img class="copyright__img" src="http://placehold.it/147x40" alt="HTML Академия" width="27" height="34">
+      </a>
+    </footer>
 
   </body>
 </html>
