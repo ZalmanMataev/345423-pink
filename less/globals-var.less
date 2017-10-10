@@ -1,0 +1,32 @@
+/*width of  viewport*/
+@mobil-width: 320px;
+
+
+/*colors*/
+@body-color: #ffffff;
+
+
+/*data of text*/
+@main-font: "Open Sans", "Arial", sans-serif;
+@text-color: #283645;
+
+/*mixin for text*/
+.text-value(@f-font, @f-weight, @f-size, @l-height, @l-spacing, @t-color) {
+  font-family: @f-font;
+  font-weight: @f-weight;
+  font-size: @f-size;
+  line-height: @l-height;
+  letter-spacing: @l-spacing;
+  color: $t-color;
+}
+
+
+/* mixin for button */
+.btn(@btn-color) {
+  padding: 14px;
+  border: 3px solid @btn-color;
+  border-radius: 40px;
+  text-align: center;
+
+  @include text-value(@main-font, 700, 18px, 18px, 0, @btn-color);
+}
