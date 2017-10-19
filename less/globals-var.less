@@ -11,13 +11,12 @@
 @text-color: #283645;
 
 /*mixin for text*/
-.text-value(@f-font, @f-weight, @f-size, @l-height, @l-spacing, @t-color) {
-  font-family: @f-font;
+.text-value(@f-weight, @f-size, @l-height, @l-spacing, @t-color) {
   font-weight: @f-weight;
   font-size: @f-size;
   line-height: @l-height;
   letter-spacing: @l-spacing;
-  color: $t-color;
+  color: @t-color;
 }
 
 
