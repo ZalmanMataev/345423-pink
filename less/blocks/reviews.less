@@ -2,7 +2,6 @@
   min-height: 444px;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .reviews__list {
@@ -17,21 +16,18 @@ text-align: center;
 
 .reviews__name {
   margin-top: 27px;
-  margin-bottom: 0;
+  margin-bottom: 13px;
 
-  font-family: @main-font;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0;
-  color: @text-color;
+  .text-value(700, 18px, 30px, 0, @text-color);
 }
 
 .reviews__text {
-  font-family: @main-font;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  letter-spacing: 0;
-  color: @text-color;
+  .text-value(400, 14px, 30px, 0, @text-color);
+  margin: 0;
+  padding: 0;
 }
+
+.reviews__item:not(:first-child) {
+  display: none;
+}
+

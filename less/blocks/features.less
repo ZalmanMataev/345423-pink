@@ -12,12 +12,7 @@
 }
 
 .section-title {
-  font-family: @main-font;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: auto;
-  letter-spacing: 0;
-  color: #283645;
+  .text-value(300, 24px, 28.8px, 0, @text-color);
 
   margin: 0 auto;
   margin-bottom: 30px;
@@ -27,7 +22,6 @@
 
 .features__list {
   margin: 0 auto;
-  margin-bottom: 275px; /*удалить. вместо картинки*/
   padding: 0;
   list-style: none;
   width: 280px;
@@ -39,7 +33,7 @@
 }
 
 .features__item {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -47,21 +41,20 @@
   margin: 0;
   margin-bottom: 12px;
 
-  font-family: @main-font;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #283645;
+  .text-value(700, 18px, 24px, 0, @text-color);
 }
 
 .features__text {
-  font-family: @main-font;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #283645;
+  .text-value(400, 14px, 24px, 0, @text-color);
 }
 
+.features__scrin {
+  width: 157px;
+  margin: 0 auto;
+  margin-top: 6px;
+  height: 320px;
+
+  height: 277px;
+  overflow: hidden;
+}
 
